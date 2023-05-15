@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project</title>
+    <link rel="stylesheet"type="text/css"href="styles.css">
+    <!-- <script type="text/javascript"src="portfolioP.js"></script>  -->
+    <script src="https://kit.fontawesome.com/e9ef6d4915.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                 <img src="./logo.png"class="logo">
+                 <ul id="sidemenu"> 
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#internships">INTERNSHIPS</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#services">CERTIFICATES</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav> 
+            <div class="header-text">
+                <!-- <p><span>F</span>ront End Developer</p> -->
+                <h1>Hi,I'm <span>Paka Chandrasekhar</span><br> from Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+    <!-- .....................about................ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="ch.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello everyone!!   welcome to my personal portfolio I'm<b>PAKA CHANDRA SHEKAR,</b> currently pursuing my undergarduation [B.Tech] in the stream of ARTIFICIAL INTELLIGENCE AND DATA SCIENCE from VIGNAN INTITUTE OF TECHNOLOGY AND SCIENCES deshmukhi.Iam very curious in web development domain and this is my first project in front end development.Iam very familiar with the technical skills C,PYTHON 3.11.0,JAVA, C++, HTML, Css, Js.I Also have hands-on experince with some technologies .I want to enhance my technical skills like and work for a top MNC company.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Objectives</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>C, C++, JAVA, HTML, CSS, JAVASCRIPT </li>
+                            <li><span>Technologies </span><br>JuPyter notebook,numpy,open cv,pandas,wfdb,matplotlib,mpld3,CNN,DBMS,Ethical hacking[intermediate]</li>
+                            <li><span>Interpersonal And Softskills</span><br>Active listening,Punctual, Mentoring, Inquisitiveness,Teamwork, Responsiblity</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents "id="education">
+                        <ul>
+                            <li><span>Engineering</span><br>Currently pursuing B.Tech in 2nd year in AI&DS department at VGNT, Deshmukhi.(Agrregrate Score=83%)</li>
+                            <li><span>INTERMEDIATE</span><br>Studied M.P.C at NARAYANA Junior college,Hyderabad.(Aggregrate score=95.2%)</li>
+                            <li><span>SSC</span><br>Studied at NAGARJUNA IIT CONCEPT SCHOOL,Nagole Hyderabad.(Aggregrate score=100%)</li>
+                        </ul>
+                </div>
+                <div class="tab-contents " id="experience">
+                    <ul>
+                        <li><span>Career objective</span><br>To secure a challenging position in a reputable organization to expand my learnings,knowledge and skills.</li>
+                        <li><span>Internship objective</span><br>To explore career alternatives prior to graduation and to integrate theory and practice.</li>
+                        <li><span>Project objective</span><br>To increase client satisfaction and to make it optimized and efficent and it should sustain over a period</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+   <!-- .........................services.............. -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">CERTIFICATIONS</h1>
+        <div class="services-list">
+            
+            <div>
+               <h2>NPTEL-C++</h2>
+                <center><img src="./GL.jpg" class="gl"></center>
+                <h3>Secured elite certificate from SWAYAM NPTEL In the course of  "PROGRAMMING IN MODERN C++"with 69% score.</h3>
+               
+             </div>
+             <div>
+                <h2>Great Learning</h2>
+               <center><img src="./GL1.jpg" class="gl"></center> 
+                <h3>completed the course "INTRDUCTION TO R" From Great learning academy.R language is famous for its properties to built a career in data science</h3>
+             </div>
+             <div>
+                <h2>NPTEL-C</h2>
+                <center><img src="./GL3.jpg" class="gl"></center>
+                <H3>Secured elite certificate from SWAYAM NPTEL In the course of "PROBLEM SOLVING THROUGH PROGRAMMING IN C"with 63% score</H3>
+             </div>
+            <div>
+                <h2>Infosys</h2>
+                
+                <center><img src="./GL4.jpg" class="gl"></center>
+               <H3>completed the course "INTRDUCTION TO MACHINE LEARNING" From Infosys Spring board.</H3>
+            </div>
+            <div>
+               
+                <h2>Infosys</h2>
+                <center><img src="./GL5.jpg" class="gl"></center>
+                <H3>completed the course "BASICS OF PYTHON" From Infosys Spring board.</H3>
+
+               
+            </div>
+            <div>
+                <h2>Internshala</h2>
+            <CENTER>    <img src="./GL6.jpg" class="gl"></CENTER>
+             <H3>Unlike completion of courses I also Attended events like "WORLD ENVIRONMENT DAY " Conducted by INTERNSHALA.</H3></CENTER>   </div>      </div>
+        </div>
+        <p>These are certificates , there are more certifications but these which provided above are more preferrable.I am also undergoing ethical hacking and POWER BI certifications and WEB DEVELOPMENT course in UDEMY. </p>
+    </div>
+   </div>
+
+   <!-- ----------------------------------internships------------------------------- -->
+   <div id="internships">
+    
+         <h1 class="sub-title">INTERNSHIPS</h1> 
+         <hr>
+         <div class="containers">
+        <!-- <div class="services-list"> -->
+        </hr>
+            </div>
+            <div>
+                <h2 class="isptext">Internshala</h2>
+             <CENTER><img src="./isp1.jpg" class="isp1"></CENTER>   
+             <h4><p>Joined as internshala student partner at Internshala.The role of ISP was very enthusiastic and made me to build a strong connection between the students of our institution and also connecting with them on various social media platforms.The time tenure was 2 months.</P></h4>     
+             </div>
+             <hr>
+             <div>
+                <h2 class="isptext">MyCaptain</h2>
+              <center> <img src="./isp2.jpg" height="100%" class="isp2"></center>
+              <h4><P>Joined as Campus Ambassoder at MyCaptain.The role of CA is all about marketing and business. It made me to build a strong connection between the students of various institutions and also connecting with them on various social media platforms.The time tenure was 2 months.</P></h4>
+<hr>
+             </div>
+
+
+            </div>
+            </div>
+            </div>
+        
+   <!-- ------------------------projects-------------------------- -->
+   
+    <!-- Slideshow container -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <h2 class="protitle">1.CARDIAC SPECTATOR USING AI </h2><br>
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="cardiac2.jpg" style="width:100%">
+    </div>
+    
+      <div class="mySlides fade">
+        <img src="CARD89.jpg" style="width:100%">
+      </div>
+    <div class="mySlides fade">
+        <img src="cardiac4.jpg" style="width:100%">
+           
+      </div>
+      <div class="mySlides fade">
+        <img src="Screenshot (2).png" style="width:100%">
+      </div>
+      <div class="mySlides fade">
+          <img src="Screenshot (3).png" style="width:100%">
+        </div> 
+    <div class="mySlides fade">
+        <img src="cardiac5.jpg" style="width:100%" >
+      </div>
+      <div class="mySlides fade">
+        <img src="CARD91.jpg" style="width:100%">
+      </div>
+      
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+
+  </div> 
+  <p class="protext">Since the mortality rate is high due to cardiac issues, an in time invoke and timely diagnosis are essential in treatment. a rapid rate and it’s very Important and concerning to predict any such sudden strokes beforehand. This diagnosis is a difficult task i.e. it should be performed precisely and efficiently. This project  mainly focuses on which patient is more likely to have a abnormal heart health based on various medical attributes. We prepared a cardiac spectator through which the patient is likely to be diagnosed with abnormal  heart health or not using the medical history of the patient. We used different algorithms of machine learning such as CNN and classify the patient heart health . A quite Helpful approach was used to regulate how the model can be used to improve the accuracy of prediction of Heart health  in any individual. The strength of the proposed model was quiet satisfying and was able to predict evidence of having a abnormal heart health in a particular individual by using supervised learning which showed a good accuracy . So a quiet significant amount of pressure has been lift off by using the given model in finding the probability of the classifier to correctly and accurately identify the heart health and risk factor detention.. This project gives us significant knowledge that can help us predict the patients with abnormal heart health..</p>
+  </div>
+  </div>
+ <h2 class="protitle">1.HEALTHY WASHING MACHINE </h2><br>
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="HWM.jpg" style="width:100%">
+    </div>
+    
+      <div class="mySlides fade">
+        <img src="HWM2.jpg" style="width:100%">
+      </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div> 
+  <p class="protext">Healthy washing machine is a simple mechanically built project.in this project we simply fixed a drum to the chain kit and pedals of a unused cycle.inside the drum we fixed a small secondary drum of mesh.the water is poured iin the first drum and clothes are put in the secondary drum.While the person is cycling the drum gets rotated and the clothes are rinsed and spinned . And at last the water gets rolled back by using small cap provided at the bottom of the first drum.  </div>
+  </div>
+
+  <hr>
+  <hr>
+
+   <!-- ................................contact.................. -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>pakachandrashekar0@gmail.com</p>
+                <p>+91 9390315492</p>
+                <div class="social-icons">
+                    <!-- <a href="https://www.facebook.com/profile.php?id=100024895008536"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mobile.twitter.com/kirsagara"><i class="fa-brands fa-twitter"></i></a> -->
+                    <a href="https://instagram.com/born_hyper.__18?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/paka-chandra-shekar-527844227"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=": https://wa.me/9390315492?text=hi mr.p.chandra shekar"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        
+            <div class="contact-right">
+             <form name="submit-to-google-sheet">
+                <input type="text"name="Name"placeholder="Your Name"required>
+                <input type="email"name="Email"placeholder="Your Email"required>
+                <textarea name="Message"rows="6"placeholder="Your Message"></textarea>
+                <button type="Submit"class="btn btn2">Submit</button>
+
+             </form>
+
+             <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+   </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+   </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+ sidemenu.style.right = "0px";
+}
+function closemenu(){
+ sidemenu.style.right = "-200px";
+}
+  </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxD5d19xSgPNq3vP-jaJkDUkwcGVE5pgq1aFVtf-rB2dCyvXgDUcUQK8HuMEkNZ8Yuj_w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+})
+  </script>
+  <script>
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+} 
+
+  </script>
+</body>
+</html>
